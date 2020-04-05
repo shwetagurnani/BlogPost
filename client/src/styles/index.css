@@ -1,0 +1,129 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 92vh;
+}
+
+header {
+  background: white;
+}
+
+header > h1 > a {
+  color: rgb(68, 171, 73);
+  text-decoration: none;
+}
+
+.define {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.define > a {
+  margin: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: #ff9900;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+#bkg {
+  position: fixed;
+  bottom: 0px;
+  height: 310px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.form {
+  background: white;
+  box-shadow: 2px 2px 5px 2px rgb(0, 0, 0, 0.4);
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form {
+  padding: 20px;
+}
+
+.signpass{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.signpass input{
+  height: 35px;
+}
+#log-in {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.btn {
+  color: white;
+  background: #4caf50;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+  border: none;
+  height: 40px;
+  width: 55px;
+  margin-left: 35%;
+  margin-bottom: 10px;
+}
+
+#log-in > label {
+  padding-bottom: 10px;
+}
+
+#log-in > input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name > div > input {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#left_hover {
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  background: #ff9900;
+  border-radius: 50%;
+  z-index: +1;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.8);
+}
+
+#right_hover {
+  position: absolute;
+  bottom: 0px;
+  right: 20%;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  z-index: +1;
+  background: #ff9900;
+  border-radius: 50%;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.8);
+}

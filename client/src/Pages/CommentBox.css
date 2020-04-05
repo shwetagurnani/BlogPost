@@ -1,0 +1,111 @@
+.container {
+    margin: 120px auto;
+    padding: 1rem;
+    min-height: 50vh;
+    width: 90%;
+    max-width: 60rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .comments {
+    width: 75%;
+    max-width: 700px;
+    min-width: 300px;
+  }
+  
+  .comments h2 {
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .singleComment {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .singleCommentContent {
+    min-width: 100px;
+    border-radius: 25px;
+  }
+  
+  .userImage {
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  
+  
+  .singleCommentContent h3 {
+    margin: 0;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #385997;
+  }
+  
+  .singleCommentContent p {
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .singleCommentButtons {
+    padding-top: 5px;
+  }
+  
+  .time {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #999;
+  }
+  
+  .singleCommentButtons a {
+    margin: 0px 3px;;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    color: #385997;
+    letter-spacing: 0.05em;
+  }
+  
+.comment-form input[type="text"]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.submitForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.submitForm button{
+  margin-left: 70%;
+  display: none;
+}
+
+@media only screen and (max-width: 900px)
+{
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .comments h2{
+    margin-top: 10px;
+    font-weight: 200px; 
+  }
+  .comments {
+    min-width: 200px;
+  }
+}
+
+
+

@@ -1,0 +1,108 @@
+#gig-cards-list{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gig-card {
+  list-style: none;
+  margin: 50px auto;
+  padding: 1rem;
+  min-height: 50vh;
+  width: 90%;
+  max-width: 60rem;
+  box-shadow: 0 2px 8px #94e296;
+  border-radius: 6px;
+  background: white;
+  display: grid;
+  grid-template-rows: 2fr 1fr ;
+  grid-row: 3fr;
+}
+
+.gig-card > div > h2 {
+  padding: 10px;
+}
+
+.gig-card > div > p {
+  padding: 0px 10px 10px 10px;
+}
+
+.gig-card > div > h4 {
+  padding: 0px 0px 10px 10px;
+}
+
+.postlink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.postlink > button{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: #41ca8a;
+  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.35);
+}
+
+.postlink > a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: #41ca8a;
+  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.35);
+}
+
+#post-gig-container {
+  margin: 100px 20px;
+  background-color: white;
+}
+
+#post-gig {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 2px rgb(0, 0, 0, 0.5);
+}
+
+#post-gig > h2 {
+  margin-bottom: 10px;
+}
+
+#post-gig > label {
+  padding: 0px 0px 10px 0px;
+}
+
+#post-gig > textarea {
+  margin-bottom: 10px;
+}
+
+#post-gig > input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.postimg{
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+
+@media only screen and (min-width: 700px)
+{
+  #gig-cards-list{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #gig-cards-list{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
