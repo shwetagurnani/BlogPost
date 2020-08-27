@@ -17,13 +17,13 @@ Step 1 : Clone the repository
 
          git clone "https://github.com/shwetagurnani/BlogPost.git"
 
-Step 2 : Open a terminal.Change directory to Edgistify_BlogPost and install node_modules
+Step 2 : Open a terminal.Change directory to BlogPost and install node_modules
 
          cd BlogPost/
 	 
          npm install
 
-Step 3 : Open a new terminal and change directory to Edgistify_BlogPost/client and install node_modules
+Step 3 : Open a new terminal and change directory to BlogPost/client and install node_modules
 
           cd BlogPost/client 
 	 
