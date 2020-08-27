@@ -1,8 +1,8 @@
 
 # BLOGPOST
+It is a complete MERN app where users can read the blogs posted by other users and also post there own blog after logging in.This app also has the feature that other users can like and comment the post of other users as well. 
 
-Visit the blog at
-http://edgistifyblogpost.herokuapp.com/
+Check it out [here](http://edgistifyblogpost.herokuapp.com/) 😉
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -64,6 +64,5 @@ And finally the server will be loaded!
 # Author
 Shweta Gurnani
 
-If you have any difficulty in building up the code in the repository,please mail me at 
-18107@iiitu.ac.in
+If you have any difficulty in building up the code in the repository,feel free to open the issue!
 
