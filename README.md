@@ -61,8 +61,6 @@ And finally the server will be loaded!
 
 5.) Users can view the post without logging in.
 
-P.S : An unnoticable feature , Edgistify logo and photo was not available on Internet in HD mode,so I made them on photoshop since I required them in my website!
-
 # Author
 Shweta Gurnani
 
